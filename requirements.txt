@@ -1,0 +1,9 @@
+opencv-python
+numpy
+pillow
+pyautogui
+pywin32
+paddlepaddle
+paddleocr
+pydub
+pygame

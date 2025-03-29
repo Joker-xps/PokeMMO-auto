@@ -1,0 +1,44 @@
+{
+    "window": {
+        "name": "PokeMMO",
+        "use_partial_match": true,
+        "auto_foreground": true
+    },
+    "templates_dir": "resources/templates",
+    "sounds_dir": "resources/sounds",
+    "screenshots_dir": "screenshots",
+    "delay": {
+        "min": 0.5,
+        "max": 2.0,
+        "click_min": 0.1,
+        "click_max": 0.3,
+        "key_min": 0.05,
+        "key_max": 0.15
+    },
+    "captcha": {
+        "check_interval": 5,
+        "keywords": [
+            "验证码",
+            "安全验证",
+            "验证",
+            "captcha",
+            "CAPTCHA",
+            "Captcha"
+        ],
+        "alert_sound": "resources/sounds/alert.wav"
+    },
+    "ocr": {
+        "language": "ch",
+        "threshold": 0.6,
+        "enable": true
+    },
+    "hotkeys": {
+        "start": "f9",
+        "stop": "f10",
+        "pause": "f11"
+    },
+    "debug": {
+        "save_screenshots": true,
+        "verbose_logging": true
+    }
+}
